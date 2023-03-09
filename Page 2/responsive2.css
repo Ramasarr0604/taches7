@@ -1,0 +1,32 @@
+@media screen and (max-width: 991px) {
+    .abs2{
+        width: 60%;
+        height: 22%;
+        bottom: 30%;
+    }
+}
+@media screen and (max-width: 767px) {
+    html,body{
+        position: relative;
+        z-index: 0;
+        width: 100%;
+        height: 1110px;
+    }
+    main{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 1110px;
+        background: rgba(34, 24, 24, 0.6);
+    }
+    .abs2{
+        position: relative;
+        width: 100%;
+        height: 22%;
+        bottom: 45%;
+        content: normal;
+    }
+    .img2{
+        height: 200%;
+    }
+}
